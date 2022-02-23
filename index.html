@@ -4,29 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
     <title>Countdown</title>
 </head>
 <body>
-    <div class="container_countdown">
-        <h1>
-            READY TO LAUNCH IN...
-        </h1>
+    <img class="top_image" src="/assets/top-image.svg">
+    <main>
+        
+        <div class="container_countdown">
+            <h1>
+                READY TO LAUNCH IN...
+            </h1>
 
-        <div class="countdown">
+            <div class="countdown">
+                <ul class="countdown">
+                    <li id="data_time">
+                        <span class= "number_time" id="day_time">00</span>
+                        Dias
+                    </li>
+
+                    <li id="data_time">
+                        <span class= "number_time" id="hours_time" > : 00</span>
+                        Horas
+                    </li>
+
+                    <li id="data_time">
+                        <span class= "number_time" id="min_time" > : 00</span>
+                        Minutos
+                    </li>
+
+                    <li id="data_time">
+                        <span class= "number_time" id="sec_time"> : 00</span>
+                        Segundos
+                    </li>
+                </ul>
+            </div>
+
+            <h3>
+                Inscreva-se para saber mais sobre o lançamento
+            </h3>
+
+            <button>
+                Inscreva-se
+            </button>
         </div>
+        
 
-        <h3>
-            Inscreva-se para saber mais sobre o lançamento
-        </h3>
+        <div class="imagem">
+            <img src="/assets/rocket.svg">
+        </div>
+    </main>
+    <img class="bottom_image" src="/assets/bottom-image.svg">
 
-        <button>
-            Inscreva-se
-        </button>
-    </div>
-
-    <div class="imagem">
-        <img src="/assets/rocket.svg">
-    </div>
-    
+    <script src="/script.js"></script>
 </body>
 </html>
