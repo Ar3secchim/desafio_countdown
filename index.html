@@ -45,11 +45,22 @@
           Inscreva-se para saber mais sobre o lançamento
       </h3>
 
-      <button>
-          Inscreva-se
+      <button class="btn-primary">
+        Inscreva-se
       </button>
     </div>
-    
+
+    <div id="modal_container" class="modal_container">
+      <div class="modal">
+        <form  class="form_modal">
+          <input type="button" value="X" class="btn-esc">
+          <h1>Inscreva-se</h1>
+          <input type="text" name="nome" placeholder="Nome">
+          <input type="email" name="email_usuario" placeholder="E-mail">
+          <input type="submit" class="btn-enviar" value="Enviar">
+        </form>
+      </div>
+    </div>
 
     <div class="imagem">
         <img src="/assets/rocket.svg">

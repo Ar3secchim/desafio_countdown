@@ -12,7 +12,7 @@ const countdown = () =>{
   const day = hour * 24;
 
   //calculate o gap 
-  const textDay = Math.floor(gap / day);
+  const textDay = Math.floor(gap / day); 
   const textHour = Math.floor((gap % day) /hour);
   const textMinute = Math.floor((gap % hour) /minute);
   const textSecond = Math.floor((gap % minute) /second);
@@ -24,3 +24,17 @@ const countdown = () =>{
 }
 
 setInterval(countdown, 1000);//refresh a function at specified intervals
+
+// action modal
+
+function startModal() {
+  const modal = document.getElementById("modal_container")
+  modal.classList.add('mostrar')
+}
+
+const startModalButton = document.querySelector('.btn-primary');
+console.log(startModalButton);
+
+startModalButton.addEventListener("click", () => {
+  startModal();
+})
