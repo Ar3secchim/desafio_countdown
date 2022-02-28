@@ -68,8 +68,7 @@ h3{
   padding: 13px 32px 13px 32px;
   border-radius: 10px;
 
-  cursor: pointer;
-  
+  cursor: pointer; 
 }
 
 .modal_container{
@@ -118,6 +117,14 @@ input{
   background: #6b63ff34
 }
 
+.btn-enviar{
+  background: #6C63FF;
+  color: white;
+  padding: 13px 32px 13px 32px;
+  border-radius: 10px;
+
+  cursor: pointer; 
+}
 .btn-esc{
   background-color: #6C63FF;
   color: #ffffff;
@@ -134,6 +141,7 @@ input{
   left: 270px;
   top: -50px;
 }
+
 
 @keyframes modal {
   from { 
