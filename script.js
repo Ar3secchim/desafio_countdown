@@ -25,16 +25,22 @@ const countdown = () =>{
 
 setInterval(countdown, 1000);//refresh a function at specified intervals
 
-// action modal
+// action modal start
 
 function startModal() {
   const modal = document.getElementById("modal_container")
   modal.classList.add('mostrar')
 }
 
-const startModalButton = document.querySelector('.btn-primary');
-console.log(startModalButton);
+/*   modal.addEventListener('click', (e) => {
+    if (e.target = input.btn-esc){
+      modal.classList.remove('mostrar')
+    }
+  }) */
 
-startModalButton.addEventListener("click", () => {
+
+const startModalButton = document.querySelector('.btn-primary');
+
+startModalButton.addEventListener("click", () => { //start event 
   startModal();
 })
