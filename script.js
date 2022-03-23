@@ -1,7 +1,7 @@
 
 const countdown = () =>{
 
-  const countDate = new Date("mar 07, 2022 19:00:00").getTime(); //getTime()retorna o número de milissegundos
+  const countDate = new Date("mar 27, 2022 19:00:00").getTime(); //getTime()retorna o número de milissegundos
   const now = new Date() .getTime(); //date now
   const gap = countDate - now; //diference a dates 
   
