@@ -1,10 +1,8 @@
 # 💻 Sobre o desafio
 
----
+![1](/assets/V%C3%ADdeo%20sem%20t%C3%ADtulo%20%E2%80%90%20Feito%20com%20o%20Clipchamp%20(2).gif)
 
 Neste desafio você deve criar uma página de `coming soon` para o lançamento de um site, produto ou serviço, e na página deve ter um **countdown timer** informando quanto tempo falta para o lançamento.
-
-
 # 🚀 **Techs**
 
 
@@ -14,8 +12,6 @@ Neste desafio você deve criar uma página de `coming soon` para o lançamento d
 
 # ✅ **Requisitos**
 
----
-
 Neste desafio construi um **countdown timer**. Caso você ainda não tenha feito os cursos do Discover ou queira fazer uma revisão.
 
 **Requisitos para o desafio:**
@@ -23,16 +19,13 @@ Neste desafio construi um **countdown timer**. Caso você ainda não tenha feito
 - Para concluir o desafio precisei cumprir alguns requisitos:
    [X] 1. A página deve ter um **countdown timer** com uma contagem regressiva para o tempo de lançamento.
    [X] 2. Adicione um **botão** com o texto "inscreva-se".
-   
+
 ***Se desafie também:***
 
 [X] - Adicione um modal que aparece quando o usuário clica no botão "Inscreva-se".
 [X] - No modal adicione um formulário com inputs de nome, e-mail e um botão de envio.
 
 # 🎨 Style Guide
-
----
-
 ## **Cores:**
 
 ```css
@@ -46,8 +39,8 @@ Neste desafio construi um **countdown timer**. Caso você ainda não tenha feito
 
 ## **Tipo de fonte:**
 
-font-family: Poppins 
+font-family: Poppins
 
 Font Weight: 300, 400 e 500
 
-Você pode encontrar a fonte no [Google Fonts](https://fonts.google.com/) 
+Você pode encontrar a fonte no [Google Fonts](https://fonts.google.com/)
